@@ -1,23 +1,45 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
+  background: var(--ifm-color-primary);
+  color: white;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  padding: 2rem;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.bannerImage {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .buttons {
+  margin-top: 1.5rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 1rem; /* Adds space between buttons */
+}
+
+/* Centered section for "Why Use This?" and "Features" */
+.section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
