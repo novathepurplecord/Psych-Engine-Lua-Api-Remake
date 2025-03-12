@@ -146,6 +146,11 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ["lua"],
       },
+      themeConfig: {
+        colorMode: {
+          defaultMode: 'dark',
+        },
+      },
     }),
 };
 
