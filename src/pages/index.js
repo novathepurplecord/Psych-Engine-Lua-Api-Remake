@@ -4,19 +4,33 @@ import clsx from "clsx";
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Head from '@docusaurus/Head';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
+    
     <Layout
       title={siteConfig.title}
-      description="Custom Docusaurus Landing Page"
+      description="Psych Engine Lua Docs"
     >
+      <Head>
+        <meta property="og:title" content="Psych Engine Lua Docs" />
+        <meta property="og:description" content="Welcome to the Psych Engine Lua Docs!" />
+        <meta property="og:image" content="static/img/logo.png" />
+        <meta property="og:url" content="https://psych-engine-api.netlify.app/" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Psych Engine Lua Docs" />
+        <meta name="twitter:description" content="Welcome to the Psych Engine Lua Docs!" />
+        <meta name="twitter:image" content="static/img/logo.png" />
+      </Head>
       <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
           <img
-            src="/img/logo.png" // Banner image from the static folder
+            src="/img/logo.png"
             alt="Logo"
             className={styles.bannerImage}
           />
