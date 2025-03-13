@@ -1,6 +1,8 @@
-# Website
+# Psych Engine Lua API Site Remake
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+how to add images i forgo
+
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. 👋👋👋👋
 
 ### Installation
 
